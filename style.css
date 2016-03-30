@@ -1,0 +1,128 @@
+body, html {
+  height:100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Arimo', sans-serif;
+}
+
+.border1, .middle {
+  float: left;
+  margin-right: 1%;
+  height: 100%;
+}
+
+/* p .welcometext {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 0 auto;
+} */
+
+.border1 {
+  background-image: url(https://lochkelly.org/wp-content/uploads/2015/09/iStock_000070184117_Medium.jpg);
+  width: 20%;
+  }
+
+.middle {
+  background-color: #D0C9D6;
+  width: 58%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-decoration-style: dashed;
+  background-color: white;
+  box-sizing: content-box;
+  color: #897A8D;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.border2 {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-image: url(https://lochkelly.org/wp-content/uploads/2015/09/iStock_000070184117_Medium.jpg);
+}
+
+.middle .headline {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 100%;
+  height: 100px;
+  background-color: #D0C9D6;
+}
+
+.middle .footer {
+  width: 100%;fs
+  height: 100px;
+  background-color: #D0C9D6;
+}
+
+#gameboard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#gameboard * {
+  box-sizing: border-box;
+}
+
+#gameboard .row1 div {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+
+
+#gameboard p {
+  text-align: center;
+  font-size: 34px;
+}
+
+#gameboard .row2 div {
+  vertical-align: top;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+
+#gameboard .row3 div {
+  vertical-align: top;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+
+.playagain {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.whoWon {
+  text-align: center;
+  padding-top: 450px;
+}
+
+#whoWon {
+  text-align: center;
+  color: #45364B;
+  padding-top: 400px;
+  font-size: 30px;
+}
