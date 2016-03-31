@@ -5,6 +5,7 @@ console.log("TicTacToe");
 
 
 // array of all 9 game squares
+
 var gameSquares = document.querySelectorAll('.gamesquare');
 
 // printObject(gameSquares.item(0).classList);
@@ -16,22 +17,26 @@ function computerTurn(){
     if(gameSquares[i].children.length === 0){
       possibleMoves.push(gameSquares[i]);
     }
-
   }
+
   var computerChoice = possibleMoves[Math.floor(Math.random() * possibleMoves.length)];
+
+// style.backgroundImage = 'url(buttons/' + imagePrefix + '.png)';
+// backgroundColor = '#FBECD6';
+
 
   var p = document.createElement('P');
   p.textContent = 'O';
   computerChoice.appendChild(p);
-  computerChoice.style.backgroundColor = '#FBECD6';
+  computerChoice.style.backgroundImage = 'url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrVNhZYpV1slpkXRkDpPNoXiJZSweW6Y_AEzImdFT6193AXqtx)';
   isOWinner();
 }
 
-function printObject(obj){
-  for(var prop in obj){
-    console.log('Property: ' + prop + ' Value: ' + obj[prop]);
-  }
-}
+// function printObject(obj){
+//  for(var prop in obj){
+//    console.log('Property: ' + prop + ' Value: ' + obj[prop]);
+//  }
+
 
 for(var i = 0; i < gameSquares.length; i++){
 
@@ -40,15 +45,8 @@ for(var i = 0; i < gameSquares.length; i++){
     var p = document.createElement('P');
     p.textContent = 'X';
     event.target.appendChild(p);
-    event.target.style.backgroundColor = '#FBECD6';
-//    var hasWon = isXWinner();
-//    console.log(hasWon);
-//    if (hasWon == "X is not the winner") {
+    event.target.style.backgroundImage = 'url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrVNhZYpV1slpkXRkDpPNoXiJZSweW6Y_AEzImdFT6193AXqtx)';
       isXWinner();
-//      } else {
-//      console.log("X won");
-//      return "X won";
-//    }
   });
 }
 
@@ -65,7 +63,6 @@ function isXWinner() {
 //  printObject(gameSquares[0].children.item(0).innerHTML);
 
  if (getCharacter(gameSquares[0]) == "X" && getCharacter(gameSquares[1]) == "X" && getCharacter(gameSquares[2]) == "X") {
-   addWinnerX();
    console.log("X is the winner");
    xIsTheWinner();
  } else if (getCharacter(gameSquares[3]) == "X" && getCharacter(gameSquares[4]) == "X" && getCharacter(gameSquares[5]) == "X") {

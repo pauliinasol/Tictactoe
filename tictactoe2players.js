@@ -17,7 +17,7 @@ for(var i = 0; i < gameSquares.length; i++){
     var p = document.createElement('P');
     p.textContent = currentPlayer;
     event.target.appendChild(p);
-    event.target.style.backgroundImage = 'url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/nice_snow.png)';
+    event.target.style.backgroundImage = 'url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrVNhZYpV1slpkXRkDpPNoXiJZSweW6Y_AEzImdFT6193AXqtx)';
     if(currentPlayer === 'X'){
       isWinner('X');
       currentPlayer = 'O';
