@@ -1,0 +1,116 @@
+body, html {
+  height:100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Arimo', sans-serif;
+  cursor: crosshair;
+}
+
+.border1, .middle {
+  float: left;
+  margin-right: 1%;
+  height: 100%;
+}
+
+/* p .welcometext {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 0 auto;
+} */
+
+.border1 {
+  /*background-image: url(https://lochkelly.org/wp-content/uploads/2015/09/iStock_000070184117_Medium.jpg);*/
+  background-image: url(http://mcxu.com/colorbunch/tagebuch/img/colorbunch_wallpaper02.jpg);
+  width: 20%;
+  }
+
+.middle {
+  background-color: #CCC6C4;
+  width: 58%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-decoration-style: dashed;
+  background-color: white;
+  box-sizing: content-box;
+  color: #8B7F7F;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.border2 {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-image: url(http://mcxu.com/colorbunch/tagebuch/img/colorbunch_wallpaper02.jpg);
+}
+
+.middle .headline {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 100%;
+  height: 100px;
+  background-color: #CCC6C4;
+}
+
+.middle .footer {
+  width: 100%;fs
+  height: 100px;
+  background-color: #CCC6C4;
+}
+
+.oneplayerBtn {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  animation: tutsFade 4s 1s infinite linear alternate;
+}
+
+.buttons {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#helloworld {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.oneplayerBtn {
+  padding: 20px;
+}
+
+.buttons .onePlayerBtn {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  animation: tutsFade 4s 1s infinite linear alternate;
+}
+
+.buttons .twoPlayerBtn {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  animation: tutsFade 4s 1s infinite linear alternate;
+}
+
+.oneplayerBtn:focus, .oneplayerBtn:active, .oneplayerBtn.active, .oneplayerBtn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.twoPlayerBtn:focus, .twoPlayerBtn:active, .twoPlayerBtn.active, .twoPlayerBtn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
