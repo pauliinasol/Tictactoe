@@ -91,17 +91,17 @@ h1 {
   color: black;
   background: white;
   border: 1px solid black;
-  animation: tutsFade 4s 1s infinite linear alternate;
+
 }
 
 .buttons .twoPlayerBtn {
   color: black;
   background: white;
   border: 1px solid black;
-  animation: tutsFade 4s 1s infinite linear alternate;
+
 }
 
-.oneplayerBtn:focus, .oneplayerBtn:active, .oneplayerBtn.active, .oneplayerBtn:focus:active {
+.oneplayerBtn:focus, .oneplayerBtn:active, .onePlayerBtn.active, .oneplayerBtn:focus:active {
   background-image: none;
   outline: none;
   -webkit-box-shadow: none;
