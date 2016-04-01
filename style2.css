@@ -101,7 +101,7 @@ h1 {
 
 }
 
-.oneplayerBtn:focus, .oneplayerBtn:active, .onePlayerBtn.active, .oneplayerBtn:focus:active {
+.onePlayerBtn:focus, .onePlayerBtn:active, .onePlayerBtn.active, .onePlayerBtn:focus:active {
   background-image: none;
   outline: none;
   -webkit-box-shadow: none;
