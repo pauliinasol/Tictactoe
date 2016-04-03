@@ -1,7 +1,6 @@
 body, html {
   height:100%;
   width: 100%;
-  cursor: crosshair;
 }
 
 body {
@@ -73,8 +72,8 @@ h1 {
   display: inline-block;
   width: 100px;
   vertical-align: top;
+  /*background-color: white;*/
   height: 100px;
-  background-color: white;
   border: 1px solid black;
   margin-bottom: 3px;
 }
@@ -85,12 +84,21 @@ h1 {
   font-size: 34px;
 }
 
+.gamesquare {
+  background-color: white;
+}
+
+.gamesquare:hover {
+   cursor: crosshair;
+   background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrVNhZYpV1slpkXRkDpPNoXiJZSweW6Y_AEzImdFT6193AXqtx);
+ }
+
 #gameboard .row2 div {
   vertical-align: top;
   display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: white;
+  /*background-color: white;*/
   border: 1px solid black;
   margin-bottom: 3px;
 }
@@ -100,7 +108,7 @@ h1 {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: white;
+  /*background-color: white;*/
   border: 1px solid black;
   margin-bottom: 3px;
 }
